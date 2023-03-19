@@ -32,6 +32,7 @@
       padding-top: 3rem;
       padding-bottom: 3rem;
       color: #5a5a5a;
+      scroll-behavior: smooth;
     }
     .container-visit {
       
@@ -63,7 +64,7 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar bg-body-tertiary navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">My Blog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -93,11 +94,11 @@
 
 
   <main class="">
-    <div class="container-fluid container-visit  my-3"><!-- visit section starts -->
-      <h1 class="text-md-center my-3">Where can you visit?</h1>
-      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 ml-5">
-
-        <div class="col">
+    <div class="container-fluid container-visit my-3"><!-- visit section starts -->
+      <h1 class="text-center my-3">Where can you visit?</h1>
+      <div class="cardsrow  row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 ml-5">
+       
+        <div class="col d-flex justify-content-sm-center  ">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/cadianda-ruins-theatre.jpg'); height: 200px; background-position: center; background-size: cover;">
@@ -110,16 +111,15 @@
                 hill, that has a bus connection to Fethiye, some 25 kilometers away.</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
-                  <p class="card-text float-right"><small class="text-muted">6 mins ago</small></p>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>                     
                 </div>
-              
+                <p class="card-text float-right ml-3"><small class="text-muted">36 mins ago</small></p>              
             </div>
             
           </div>
         </div>
 
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/cadiandacity.jpg'); height: 200px; background-position: center; background-size: cover;">
@@ -128,18 +128,17 @@
               <h3 class="card-title">The Site</h3>
               <p class="card-text">Cadianda is not named by any ancient author (with the possible exception of
                 Pliny[6]). Nevertheless, it was not without importance.
-
                 Extensive remains today include a stadium, a theatre, baths, agora and several temples. On one side of
                 the agora stood a Dorian temple, on its walls a long list of contributors was legible.[7]</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">16 mins ago</small></p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/cadiandatomb.jpeg'); height: 200px; background-position: center; background-size: contain;">
@@ -151,7 +150,7 @@
                 the city have a vaulted form, rarely seen in Lycia as a whole.</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">9 mins ago</small></p>
             </div>
@@ -161,7 +160,7 @@
 
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3  my-5  ml-5">
 
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/flowerbee.JPG'); height: 200px; background-position: center; background-size: cover;">
@@ -174,7 +173,7 @@
                 hill, that has a bus connection to Fethiye, some 25 kilometers away.</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">6 mins ago</small></p>
             </div>
@@ -182,7 +181,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/flloweralmond.JPG'); height: 200px; background-position: center; background-size: cover;">
@@ -196,13 +195,13 @@
                 the agora stood a Dorian temple, on its walls a long list of contributors was legible.[7]</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">16 mins ago</small></p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/flower3.JPG'); height: 200px; background-position: center; background-size: cover;">
@@ -214,7 +213,7 @@
                 the city have a vaulted form, rarely seen in Lycia as a whole.</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">9 mins ago</small></p>
             </div>
@@ -223,7 +222,7 @@
       </div>
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 my-5 ml-5">
 
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/saklikent.jpg'); height: 200px; background-position: center; background-size: cover;">
@@ -236,7 +235,7 @@
                 hill, that has a bus connection to Fethiye, some 25 kilometers away.</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">6 mins ago</small></p>
             </div>
@@ -244,7 +243,7 @@
           </div>
         </div>
 
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/cadiandacity.jpg'); height: 200px; background-position: center; background-size: cover;">
@@ -258,13 +257,13 @@
                 the agora stood a Dorian temple, on its walls a long list of contributors was legible.[7]</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">16 mins ago</small></p>
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col d-flex justify-content-sm-center">
           <div class="card" style="width: 20rem;">
             <div class="img"
               style="background: url('/images/flower2.JPG'); height: 200px; background-position: top; background-size: cover;">
@@ -276,7 +275,7 @@
                 the city have a vaulted form, rarely seen in Lycia as a whole.</p>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="#" type="button" class="btn btn-primary">View</a>
-                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <a href="#" type="button" class="btn btn-success">Edit</a>
                 </div>
                 <p class="card-text float-right"><small class="text-muted">9 mins ago</small></p>
             </div>
