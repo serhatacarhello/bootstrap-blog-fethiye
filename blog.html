@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Carousel Template · Bootstrap</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <style>
+    /* GLOBAL STYLES
+    --------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      color: #5a5a5a;
+    }
+    .container-visit {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .card {
+      height: 600px; 
+      gap: 10px;      
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/sign.html">Sign In</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main class="">
+    <div class="container-fluid container-visit  my-3"><!-- visit section starts -->
+      <h1 class="text-md-center my-3">Where can you visit?</h1>
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 ml-5">
+
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/cadianda-ruins-theatre.jpg'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cadianda </h3>
+              <p class="card-text">Cadyanda or Kadyanda (Ancient Greek: Καδύανδα) was a town of ancient Lycia. The site
+                was discovered by Charles Fellows.[1]
+                Its site is on a hill top, it can be reached from Üzümlü, Asiatic Turkey.[4][5] at the foot of that
+                hill, that has a bus connection to Fethiye, some 25 kilometers away.</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                  <p class="card-text float-right"><small class="text-muted">6 mins ago</small></p>
+                </div>
+              
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/cadiandacity.jpg'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">The Site</h3>
+              <p class="card-text">Cadianda is not named by any ancient author (with the possible exception of
+                Pliny[6]). Nevertheless, it was not without importance.
+
+                Extensive remains today include a stadium, a theatre, baths, agora and several temples. On one side of
+                the agora stood a Dorian temple, on its walls a long list of contributors was legible.[7]</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">16 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/cadiandatomb.jpeg'); height: 200px; background-position: center; background-size: contain;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cadianda Necropolis</h3>
+              <p class="card-text">The necropolis has been plundered and partly destroyed, and much of the area was
+                overgrown during a 2016 visit, though some paths allow for a walk along most sights. The tombs close to
+                the city have a vaulted form, rarely seen in Lycia as a whole.</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">9 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3  my-5  ml-5">
+
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/flowerbee.JPG'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cadianda </h3>
+              <p class="card-text">Cadyanda or Kadyanda (Ancient Greek: Καδύανδα) was a town of ancient Lycia. The site
+                was discovered by Charles Fellows.[1]
+                Its site is on a hill top, it can be reached from Üzümlü, Asiatic Turkey.[4][5] at the foot of that
+                hill, that has a bus connection to Fethiye, some 25 kilometers away.</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">6 mins ago</small></p>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/flloweralmond.JPG'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">The Site</h3>
+              <p class="card-text">Cadianda is not named by any ancient author (with the possible exception of
+                Pliny[6]). Nevertheless, it was not without importance.
+
+                Extensive remains today include a stadium, a theatre, baths, agora and several temples. On one side of
+                the agora stood a Dorian temple, on its walls a long list of contributors was legible.[7]</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">16 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/flower3.JPG'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cadianda Necropolis</h3>
+              <p class="card-text">The necropolis has been plundered and partly destroyed, and much of the area was
+                overgrown during a 2016 visit, though some paths allow for a walk along most sights. The tombs close to
+                the city have a vaulted form, rarely seen in Lycia as a whole.</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">9 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-3 my-5 ml-5">
+
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/saklikent.jpg'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cadianda </h3>
+              <p class="card-text">Cadyanda or Kadyanda (Ancient Greek: Καδύανδα) was a town of ancient Lycia. The site
+                was discovered by Charles Fellows.[1]
+                Its site is on a hill top, it can be reached from Üzümlü, Asiatic Turkey.[4][5] at the foot of that
+                hill, that has a bus connection to Fethiye, some 25 kilometers away.</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">6 mins ago</small></p>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/cadiandacity.jpg'); height: 200px; background-position: center; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">The Site</h3>
+              <p class="card-text">Cadianda is not named by any ancient author (with the possible exception of
+                Pliny[6]). Nevertheless, it was not without importance.
+
+                Extensive remains today include a stadium, a theatre, baths, agora and several temples. On one side of
+                the agora stood a Dorian temple, on its walls a long list of contributors was legible.[7]</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">16 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <div class="img"
+              style="background: url('/images/flower2.JPG'); height: 200px; background-position: top; background-size: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Cadianda Necropolis</h3>
+              <p class="card-text">The necropolis has been plundered and partly destroyed, and much of the area was
+                overgrown during a 2016 visit, though some paths allow for a walk along most sights. The tombs close to
+                the city have a vaulted form, rarely seen in Lycia as a whole.</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="#" type="button" class="btn btn-primary">View</a>
+                  <a href="#" type="button" class="btn btn-primary">Edit</a>
+                </div>
+                <p class="card-text float-right"><small class="text-muted">9 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- visit section ends -->
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2023 Company, Inc. All rights reserved. &middot; <a href="/blog.html">Blog</a> &middot; <a href="/sign.html">Sign In</a>
+      </p>
+    </footer>
+  </main>
+
+
+
+</body>
+
+</html>
