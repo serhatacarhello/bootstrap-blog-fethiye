@@ -10,6 +10,6 @@ HTML CSS Bootstrap
 <br>
 <br>
 
-<img src="/images/screen.gif"
+<img src="/images/screen.gif">
 
 
