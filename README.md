@@ -1,0 +1,2 @@
+# bootstrap-blog-fethiye
+#technologies
